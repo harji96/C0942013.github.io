@@ -5,7 +5,7 @@ body,header,nav,main,footer,h1,div,img {
 }
 
 body {
-    background-color: #ffd000;
+    background-color: #ffffff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -71,50 +71,95 @@ main {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
 }
 
-table { 
-    border: 3px solid #000000; 
-	margin-left: auto;
-	margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
-	width: 80%;
+#potw {
+    margin-top: 15%;
+    border-radius: 20px;
+    color: #fafafa;
+    font-size: 30px;
+    width: 300px; 
+    margin: 0 auto; 
+    text-align: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 5px solid #fff; 
+    padding: 20px;
+    background-color: #333;
+    font-style: italic;
 }
 
-caption { 
-    font-size: 2em;
-	margin-top: 2%;
-    padding: 2%;
-    font-size: 50px;
-    font-style: italic;
+#potwimage{
+    border: 5px solid #000000;
+    width: 250px; 
+    height: 250px; 
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 820px;
+}
+
+#paras {
+    font-size: 30px;
+    text-align: center;
+}
+
+#specialoffer {
+    border: 2px solid rgb(0, 0, 0); 
+    border-radius: 50%;
+    width: 500px; 
+    height: 500px; 
+    margin-left: 700px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#names {
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: center;
     font-weight: bold;
 }
 
-td {
-    border-collapse: collapse;
-	border: 1px solid #000000;
-	text-align: center;
-    padding: 20px;
+#weekly {
+    color: #212121;
     font-size: 35px;
+    width: 300px; 
+    margin-top: 70px;
+    margin-left: 50px;
+    font-style: italic;
+    text-align: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 5px solid rgb(0, 0, 0); 
+    background-color: #ffffff;
 }
 
-th {
-	border-collapse: collapse;
-	border: 2px solid #000000;
-    padding: 20px;
+#weeklyProducts {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+#weeklypics {
+    width: 400px; 
+    height: 300px;
+}
+
+#paras {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.box {
     font-size: 35px;
+    border: 5px solid #333; 
+    padding: 30px;          
+    margin: 20px;           
+    background-color: #ffd000; 
+    border-radius: 8px;    
+    box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.1); 
+    width: 1800px;           
+    max-width: 100%;        
 }
 
-tr:nth-child(odd) {
-    border-collapse: collapse;
-	background-color: #ffd000;
-}
-
-tr:hover {
-    color: rgb(255, 0, 0);
-  }
-
-#round {
-    border-radius: 8px;
+.box p {
+    margin: 0;              
 }
 
 footer {
@@ -181,11 +226,11 @@ nav ul li a {
     color: #333;
     text-decoration: none;
     padding: 5px 10px;
-    
+   
 }
 
 nav ul li a:hover {
-    background: #ffffff;
+    background: #ffd000;
     border-radius: 17px;
 }
 

@@ -71,51 +71,6 @@ main {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
 }
 
-table { 
-    border: 3px solid #000000; 
-	margin-left: auto;
-	margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
-	width: 80%;
-}
-
-caption { 
-    font-size: 2em;
-	margin-top: 2%;
-    padding: 2%;
-    font-size: 50px;
-    font-style: italic;
-    font-weight: bold;
-}
-
-td {
-    border-collapse: collapse;
-	border: 1px solid #000000;
-	text-align: center;
-    padding: 20px;
-    font-size: 35px;
-}
-
-th {
-	border-collapse: collapse;
-	border: 2px solid #000000;
-    padding: 20px;
-    font-size: 35px;
-}
-
-tr:nth-child(odd) {
-    border-collapse: collapse;
-	background-color: #ffd000;
-}
-
-tr:hover {
-    color: rgb(255, 0, 0);
-  }
-
-#round {
-    border-radius: 8px;
-}
 
 footer {
     text-align: center;
